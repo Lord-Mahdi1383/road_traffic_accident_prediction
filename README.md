@@ -32,12 +32,23 @@ the project involves Exploratory Data Analysis (EDA), data cleaning, feature eng
 
 ## 🛠️ Challanges
 ### High number of features in the dataset
+  - one method is to combine 2 features into one important and critical feature
+  - or we can just use algorithms like catboost to handle these
 ### imbalaced dataset
+  - we can use oversampling methods like smote but that doesn't perform well because of creating noisy dataset in fact it even lowered the model recall and f1 score
+  - another method is weighted training which does actually increase the model performace a little
 
 ## 🚀 How to Run
 ### Clone the repository:
+```bash
+git clone https://github.com/Lord-Mahdi1383/road_traffic_accident_prediction
+cd road_traffic_accident_prediction
+```
 
 ### Install Dependencies:
+```bash
+pip install -r Requirements.txt
+```
 
 
 
